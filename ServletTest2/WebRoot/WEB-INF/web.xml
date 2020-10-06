@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ServletTest2</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>ServletTest3</servlet-name>
+  	<servlet-class>test2.servlet.ServletTest3</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ServletTest3</servlet-name>
+  	<url-pattern>/Test3Servlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>ServletTest5</servlet-name>
+  	<servlet-class>test2.servlet.ServletTest5</servlet-class>
+  	<init-param>
+  		<param-name>danwei</param-name>
+  		<param-value>西安文理学院</param-value>
+  	</init-param>
+  	<init-param>
+  		<param-name>bianma</param-name>
+  		<param-value>GBK</param-value>
+  	</init-param>
+  	
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ServletTest5</servlet-name>
+  	<url-pattern>/Test3Servlet5</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

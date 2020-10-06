@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>RefreshWebHomework</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+      <servlet-name>RefreshWeb</servlet-name>
+      <servlet-class>RefreshWebHomework.RefreshWeb</servlet-class>
+    </servlet>
+    
+    
+    <servlet-mapping>
+        <servlet-name>RefreshWeb</servlet-name>
+        <url-pattern>/RefreshWeb</url-pattern>
+    </servlet-mapping>
+    <servlet>
+      <servlet-name>RefreshWeb2</servlet-name>
+      <servlet-class>RefreshWebHomework.RefreshWeb2</servlet-class>
+    </servlet>
+    
+    
+    <servlet-mapping>
+        <servlet-name>RefreshWeb2</servlet-name>
+        <url-pattern>/RefreshWeb2</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+      <servlet-name>ResourceFileTest</servlet-name>
+      <servlet-class>RefreshWebHomework.ResourceFileTest</servlet-class>
+    </servlet>
+    
+    
+    <servlet-mapping>
+        <servlet-name>ResourceFileTest</servlet-name>
+        <url-pattern>/ResourceFileTest</url-pattern>
+    </servlet-mapping>
+</web-app>

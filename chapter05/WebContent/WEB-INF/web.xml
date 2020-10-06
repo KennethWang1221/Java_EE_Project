@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>chapter05</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+   <servlet>
+      <servlet-name>LastAccessServlet</servlet-name>
+      <servlet-class>cn.itcast.chapter05.cookie.example.LastAccessServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>LastAccessServlet</servlet-name>
+        <url-pattern>/LastAccessServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>LastAccessServlettest1</servlet-name>
+      <servlet-class>cn.itcast.chapter05.cookie.example.LastAccessServlettest1</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>LastAccessServlettest1</servlet-name>
+        <url-pattern>/LastAccessServlettest1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>CookiesTest1</servlet-name>
+      <servlet-class>cn.itcast.chapter05.cookie.example.CookiesTest1</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>CookiesTest1</servlet-name>
+        <url-pattern>/CookiesTest1</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+      <servlet-name>ListBookServlet</servlet-name>
+      <servlet-class>cn.itcast.chapter05.session.example01.ListBookServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ListBookServlet</servlet-name>
+        <url-pattern>/ListBookServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>PurchaseServlet</servlet-name>
+      <servlet-class>cn.itcast.chapter05.session.example01.PurchaseServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>PurchaseServlet</servlet-name>
+        <url-pattern>/PurchaseServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>CartServlet</servlet-name>
+      <servlet-class>cn.itcast.chapter05.session.example01.CartServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>CartServlet</servlet-name>
+        <url-pattern>/CartServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>sessionTest1</servlet-name>
+      <servlet-class>cn.itcast.chapter05.session.test.sessionTest1</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>sessionTest1</servlet-name>
+        <url-pattern>/sessionTest1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>sessionTest2</servlet-name>
+      <servlet-class>cn.itcast.chapter05.session.test.sessionTest2</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>sessionTest2</servlet-name>
+        <url-pattern>/sessionTest2</url-pattern>
+    </servlet-mapping>
+</web-app>

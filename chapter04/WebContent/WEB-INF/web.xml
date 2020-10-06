@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>chapter04</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+      <servlet-name>PrintServlet</servlet-name>
+      <servlet-class>cn.itcast.chapter04.response.PrintServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>PrintServlet</servlet-name>
+        <url-pattern>/PrintServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>ChineseServlet</servlet-name>
+      <servlet-class>cn.itcast.chapter04.response.ChineseServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ChineseServlet</servlet-name>
+        <url-pattern>/ChineseServlet</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+      <servlet-name>RefreashSelvert</servlet-name>
+      <servlet-class>cn.itcast.chapter04.response.RefreashSelvert</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>RefreashSelvert</servlet-name>
+        <url-pattern>/RefreashSelvert</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+      <servlet-name>LoginServlet</servlet-name>
+      <servlet-class>cn.itcast.chapter04.response.LoginServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+      <servlet-name>RequestHeaderServlet</servlet-name>
+      <servlet-class>cn.itcast.chapter04.response.RequestHeaderServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>RequestHeaderServlet</servlet-name>
+        <url-pattern>/RequestHeaderServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>DownManagerServlet</servlet-name>
+      <servlet-class>cn.itcast.chapter04.response.DownManagerServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>DownManagerServlet</servlet-name>
+        <url-pattern>/DownManagerServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>RequestParamsServlet</servlet-name>
+      <servlet-class>cn.itcast.chapter04.response.RequestParamsServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>RequestParamsServlet</servlet-name>
+        <url-pattern>/RequestParamsServlet</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+      <servlet-name>RequestForwardServlet</servlet-name>
+      <servlet-class>cn.itcast.chapter04.response.RequestForwardServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>RequestForwardServlet</servlet-name>
+        <url-pattern>/RequestForwardServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>ResultServlet</servlet-name>
+      <servlet-class>cn.itcast.chapter04.response.ResultServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ResultServlet</servlet-name>
+        <url-pattern>/ResultServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+      <servlet-name>IncludingServlet</servlet-name>
+      <servlet-class>cn.itcast.chapter04.response.IncludingServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>IncludingServlet</servlet-name>
+        <url-pattern>/IncludingServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>IncludedServlet</servlet-name>
+      <servlet-class>cn.itcast.chapter04.response.IncludedServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>IncludedServlet</servlet-name>
+        <url-pattern>/IncludedServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>DispatcherTest</servlet-name>
+      <servlet-class>cn.itcast.chapter04.response.DispatcherTest</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>DispatcherTest</servlet-name>
+        <url-pattern>/DispatcherTest</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+      <servlet-name>DispathcherResultTest</servlet-name>
+      <servlet-class>cn.itcast.chapter04.response.DispathcherResultTest</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>DispathcherResultTest</servlet-name>
+        <url-pattern>/DispathcherResultTest</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+      <servlet-name>Dispatchertest1</servlet-name>
+      <servlet-class>cn.itcast.chapter04.response.Dispatchertest1</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Dispatchertest1</servlet-name>
+        <url-pattern>/Dispatchertest1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+      <servlet-name>Dispatchertest1Result</servlet-name>
+      <servlet-class>cn.itcast.chapter04.response.Dispatchertest1Result</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Dispatchertest1Result</servlet-name>
+        <url-pattern>/Dispatchertest1Result</url-pattern>
+    </servlet-mapping>
+</web-app>
